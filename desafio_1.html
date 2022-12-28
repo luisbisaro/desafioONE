@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content= "width=device-width">
+        <title>Encriptador de Texto - LAB</title>
+        <link rel="stylesheet" href="css/reset.css"> <!-- primero se ubica el reset -->
+        <link rel="stylesheet" href="css/desafio_1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="cabecera">
+                <img src="img/Vector.png" alt="logo Alura" class="logo">
+                <h1 class="titulo">Desafio ONE- Alura - Encriptador</h1>
+        </header>
+        <main>
+            <section class="principal">
+                <div class="cajas">
+                    <h1>Ingrese su mensaje</h1>
+
+                    <form id="ingresar-texto">
+                        <textarea name="" id="mensaje" cols="60" rows="6" class="caja-texto" placeholder="Ingrese su texto aquí" required ></textarea>
+                        <input type="button" id="encriptar" value="Encriptar" class="boton">
+                        <p></p>
+                        <input type="button" id="desencriptar" value="Desencriptar" class="boton">
+                        <p></p>
+                        <p>Recuerde no ingresar mayúculas, acentos, ni caracteres especiales.</p>
+
+                    </form>
+                </div>
+
+
+                <div class="cajas">
+                    <h1>Mensaje Traducido:</h1>
+                    <div id="texto-traducido">
+                        <input class="caja-traducido" type="text" id="traducido" readonly="readonly" placeholder="Texto traducido" ></input>
+                        <input type="button" value="Copiar al Portapapeles" id="copiar" class="boton">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p >&copy  Copyright - LAB .</p>
+        </footer>
+
+        <script src="js/desafio_1.js"></script
+    </body>

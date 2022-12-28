@@ -1,0 +1,131 @@
+body{
+    background-color: #c8c8c8;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.cabecera{
+    width: 940px;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+.logo{
+    position: absolute;
+    left: 84px;
+    right: 0%;
+    top: 20px;
+    bottom: 0%;
+}
+
+.titulo{
+    display: inline-block;
+    margin: 35px auto;
+    padding: 0;
+
+}
+
+.principal{
+
+    text-align: center;
+    vertical-align: center;
+    margin: 1px auto;
+}
+
+.cajas{
+    display:block;
+    margin: 0 auto;
+    padding: 10px 10px;
+    text-align: center;
+    border-style: dotted;
+    border-color:#000000;
+    
+}
+
+.cajas h1{
+    font-size: 20px;
+    margin: 10px auto;
+    font-weight: bold;
+    
+
+}
+
+.cajas p{
+    margin: 1em auto;
+}
+
+form textarea, #traducido{
+    display: block;
+    margin: 20px auto;
+    border: 0;
+    border-radius: 20px;
+    padding: 2%;
+    border: #def;
+}
+
+.boton{
+    width: 25%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold ;
+    font-style: italic;
+    background: #D8DFE8;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    transition: 0.2s all;
+    cursor: pointer;
+    display:inline-block
+
+}
+
+.boton:hover{
+    width: 25%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background: #0073fe;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.caja-traducido {
+    border-color:#000000;
+    border: none;
+    width: 500px;
+    height: 90px;
+    margin: 0 0 15px;
+
+}
+
+footer{
+    background-color: #c8c8c8;
+    height: 100px;
+    bottom: 0;
+    position: static;
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+    vertical-align: middle;
+    padding: 40px;
+}
+
+@media screen and (max-width:480px){
+
+
+    .cabecera, .titulo, .principal, .cajas, .ingresar-texto, .texto-traducido{
+        margin: 0 auto;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    .logo{
+        position: relative;
+        left: 290px;
+        top: 45px;
+        bottom: 0%;
+    }
+}
