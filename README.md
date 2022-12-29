@@ -1,14 +1,15 @@
 ## desafioONE
-primer desafio ONE - alura - G4
+
+Primer desafio ONE - alura - G4
 Encriptador de texto
-El reto consiste en crear una página web que cifre y descifre el texto que será ingresado por el usuario y 
-mostrarlo en su forma cifrada o descifrada. El objetivo de este reto es evaluar 
-los conocimientos adquiridos durante el curso "Principiante en programación"
+El reto consiste en crear una página web que cifre y descifre el texto que será ingresado por el usuario
+y mostrarlo en su forma cifrada o descifrada. El objetivo de este reto es evaluar los conocimientos 
+adquiridos durante el curso "Principiante en programación"
 
 # Requisitos del desafío
-Debe funcionar solo con letras minúsculas
-No deben ser utilizados letras con acentos ni caracteres especiales
-Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+- Debe funcionar solo con letras minúsculas.
+- No deben ser utilizados letras con acentos ni caracteres especiales.
+- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
 # Las llaves de encriptación solicitadas son las siguientes:
 
